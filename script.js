@@ -28,7 +28,7 @@ function scrollActive() {
 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight
-        const sectionTop = current.offsettop - 50
+        const sectionTop = current.offsetTop - 50
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
@@ -48,3 +48,10 @@ function scrollHeader () {
 }
 
 window.addEventListener('scroll', scrollHeader)
+
+// function scrollTop () {
+//     const scrollTop = document.getElementById('scroll-top')
+//     if (this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
+// }
+
+// window.addEventListener('scroll', scrollTop)

@@ -21,6 +21,7 @@ function linkAction () {
 navLink.forEach(n => n.addEventListener('click', linkAction ))
 
 
+
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive() {
@@ -32,9 +33,9 @@ function scrollActive() {
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav_manu a[href*=' + sectionId + ']').classList.add('active-link')
+            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active-link')
         } else {
-            document.querySelector('.nav_manu a[href*=' + sectionId + ']').classList.remove('active-link')
+            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.remove('active-link')
         }
     })
 }
@@ -49,9 +50,9 @@ function scrollHeader () {
 
 window.addEventListener('scroll', scrollHeader)
 
-// function scrollTop () {
-//     const scrollTop = document.getElementById('scroll-top')
-//     if (this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
-// }
+function scrollTop () {
+    const scrollTop = document.getElementById('scroll-top')
+    if (this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
+}
 
-// window.addEventListener('scroll', scrollTop)
+window.addEventListener('scroll', scrollTop)

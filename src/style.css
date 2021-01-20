@@ -204,7 +204,7 @@ img {
 .scrolltop {
     position: fixed;
     right: 1rem;
-    bottom: 1.5rem;
+    bottom: -20%;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -213,7 +213,7 @@ img {
     border-radius: .5em;
     z-index: var(--z-tooltip);
     transition: .4s;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .scrolltop:hover {
@@ -225,10 +225,10 @@ img {
     color: var(--first-color-lighten);
 }
 
-/* .show-scroll {
+.show-scroll {
     visibility: visible;
     bottom: 1.5rem;
-}  */
+} 
 
 .home {
     background-color: #000;
@@ -316,6 +316,35 @@ img {
     border-radius: .5rem;
 }
 
+.portfolio_content {
+    background-color: #FFF;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(174, 190, 205, .3);
+}
+
+.portfolio_img {
+    width: 100%;
+    transition: .4s;
+}
+
+.portfolio_data {
+    padding: 1.5rem;
+}
+
+.portfolio_title {
+    font-size: var(--h3-font-size);
+    text-align: center;
+}
+
+.portfolio_content:hover {
+    box-shadow: 0 6px 8px rgba(174, 190, 205, .4);
+}
+
+.portfolio_content:hover .portfolio_img {
+    transform: scale(1.02);
+}
+
 @media screen and (min-width: 576px) {
     .about_container {
         grid-template-columns: repeat(2, 1fr);
@@ -323,6 +352,7 @@ img {
 
     .about_img {
         width: 300px;
+        margin: auto;
     }
 }
 
@@ -374,5 +404,6 @@ img {
 
     .about_img {
         width: 300px;
+        margin: auto;
     }
 }

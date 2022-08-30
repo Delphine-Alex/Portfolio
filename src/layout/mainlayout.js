@@ -5,7 +5,7 @@ import Header from '../components/header/header';
 
 const Mainlayout = ({ children }) => {
     return (
-        <div className='mainlayout'>
+        <div className='mainlayout__main'>
             <header>
                 <Header />
             </header>

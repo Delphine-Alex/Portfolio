@@ -1,41 +1,13 @@
-html,
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--background-color);
-}
+/* Base */
+@import './base/base.css';
 
-a { 
-    color: inherit;
-    text-decoration: none;
-}
+/* Helpers */
+@import './helpers/variables.css';
 
-* {
-    box-sizing: border-box;
-}
+/* Layout */
+@import './layout/footer.css';
+@import './layout/header.css';
 
+/* Theme */
+@import './theme/contacts.css';
 
-/* Color palette */
-
-:root {
-    --background-color: #fefdfd;
-    --text-color: #222;
-    --second-text-color: #383838;
-    --third-text-color: #fdb99b;
-}
-
-[data-theme='dark'] {
-    --background-color: #0a192f;
-    --text-color: #eee;
-    --second-text-color: #b6b6b6;
-    --third-text-color: #809fff;
-}
-
-.test {
-    color: var(--text-color);
-}
-
-.header__main {
-    background-color: var(--background-color);
-}

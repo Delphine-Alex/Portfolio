@@ -1,0 +1,7 @@
+.test {
+    color: var(--text-color);
+}
+
+.header__main {
+    background-color: var(--background-color);
+}

@@ -1,6 +1,6 @@
 import Mainlayout from '../layout/mainlayout'
 
-import '../styles/style.scss'
+import '../styles/index.css'
 
 function MyApp({ Component, pageProps }) {
   return (

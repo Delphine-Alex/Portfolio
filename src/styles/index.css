@@ -9,5 +9,6 @@
 @import './layout/header.css';
 
 /* Theme */
-@import './theme/contacts.css';
+@import './theme/about.css';
+@import './theme/mainlayout.css';
 

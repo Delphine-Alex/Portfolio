@@ -1,0 +1,27 @@
+.footer__main {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.footer__container {
+    padding: 3.25rem;
+}
+
+.footer__container h2 {
+    margin-bottom: 30px;
+}
+
+.footer__links {
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+
+.footer__link {
+    margin: 2%;
+}
+
+.footer__signature {
+    font-weight: 200;
+    font-size: 12px;
+    padding: 4px;
+}

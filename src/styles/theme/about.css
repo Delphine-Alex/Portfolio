@@ -1,0 +1,38 @@
+.about__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 6%;
+}
+
+.about__avatar {
+    border-radius: 2%;
+}
+
+.about__bio {
+    margin-top: 20px;
+    max-width: 800px;
+    padding-left: 10%;
+}
+
+.about__bio a {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+.fun__facts {
+    background-color: var(--background-color2);
+    padding: 2.25rem 10%;
+}
+
+.facts__title {
+    background-color: var(--background-color2);
+}
+
+.facts__text {
+    background-color: var(--background-color2);
+}
+
+
+
+

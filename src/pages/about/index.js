@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 
-import Avatar from '../../public/avatar.jpg'
+// import Avatar from '../../public/avatar.jpg'
 
 const Index = () => {
     return (
         <div className='about__main'>
             <div className='about__content'>
-                <Image src={Avatar} alt='Delphine Paiva' className='about__avatar' />
+                {/* <Image src={Avatar} alt='Delphine Paiva' className='about__avatar' /> */}
                 <div className='about__bio'>
                     <h2>Bonjour, je m'appelle Delphine !</h2>
                     <p>
@@ -19,13 +19,16 @@ const Index = () => {
                         <br />
                         <br />
                         Ma formation intensive en sept. 2020, m’a fait découvrir JavaScript et le framework React, SQL, Git, et m'a fait travailler en méthode Agile SCRUM sur plusieurs projets.
-                        J'ai réalisé un premier stage d'une durée de 6 mois auprès de la société GMI Aero et j’ai obtenu le titre pro Bac+2 Développeuse Web et Web mobile avec <a href='/'>ce projet</a>.
+                        J'ai réalisé un premier stage d'une durée de 6 mois auprès de la société GMI Aero et j’ai obtenu le titre pro Bac+2 Développeuse Web avec <a href='/'>ce projet</a>.
                         <br />
                         <br />
                         J'ai poursuivi mon apprentissage en Bachelor 3 Informatique en Ingénierie Logiciel à Paris Ynov Campus et en alternance auprès de la société Odigo qui m'a fait découvrir la POO en Java. J'ai continué d'utiliser JavaScript avec le framework Angular et j'ai découvert également la CI/CD avec Docker.
                         <br />
                         <br />
-                        Mon alternance se termine fin novembre 2022 et je suis à la recherche d'une nouvelle entreprise et alternance pour réaliser un Master en développement logiciel, mobile et IOT. L'entreprise de mes rêves ?
+                        Mon alternance se termine fin novembre 2022 et je suis à la recherche d'une nouvelle entreprise pour réaliser un Master en développement logiciel, mobile et IOT.
+                        <br />
+                        <br />
+                        L'entreprise de mes rêves ?
                         <br />
                         ✔️ Curiosité, Optimisme et Bienveillance font partie de ses valeurs
                         <br />

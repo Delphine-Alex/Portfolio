@@ -1,1 +1,23 @@
+.header__main  {
+    font-family: ivypresto-display, serif;
+    color: var(--text-light);
+    margin-right: 5%;
+    letter-spacing: 2px;
+    padding-top: 1.5rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
 
+.header__main a {
+    margin-left: 1.5rem;
+}
+
+.header__main a:hover {
+    color: var(--text-color);
+}
+
+/* .header__main a:active {
+    color: var(--text-color);
+    font-weight: 600;
+} */

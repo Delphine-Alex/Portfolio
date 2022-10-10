@@ -6,11 +6,9 @@ const Header = () => {
 
     return (
         <div className='header__main'>
-            <nav>
-                <Link href='/'><a className='test'>Home</a></Link>
-                <Link href='/about'><a className=''>A propos</a></Link>
-                <Link href='/projets'><a className=''>Projets</a></Link>
-            </nav>
+            <Link href='/'><a className='test'>Home</a></Link>
+            <Link href='/about'><a className=''>A propos</a></Link>
+            <Link href='/projets'><a className=''>Projets</a></Link>
         </div>
     );
 }

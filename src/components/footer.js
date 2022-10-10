@@ -11,9 +11,7 @@ const Footer = () => {
                     <a className='footer__link' href='mailto:delphine.pva@gmail.com'>Email</a>
                 </div>
             </div>
-            <div className='footer__signature'>
-                Made with ♡ in JavaScript/React
-            </div>
+            <div className='footer__signature'>Made with ♡ in JavaScript/React</div>
         </div>
     );
 }
